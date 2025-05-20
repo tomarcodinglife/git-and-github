@@ -13,3 +13,9 @@
 |Merge Request vs Pull Request	                            | Pull Request	                                            | Merge Request                                        |
 |Security / Permissions                                     |	Good	                                                    | More granular control                                |
 
+# Basic Git Commands
+| Command                                                   |     Description                                           |                        Example                       |  
+| ----------------------------------------------------------|:---------------------------------------------------------:| ----------------------------------------------------:|
+|git init                                                   | For New Repo                                              | git init                                             |
+
+
