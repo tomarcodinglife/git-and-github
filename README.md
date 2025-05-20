@@ -17,5 +17,12 @@
 | Command                                                   |     Description                                           |                        Example                       |  
 | ----------------------------------------------------------|:---------------------------------------------------------:| ----------------------------------------------------:|
 |git init                                                   | For New Repo                                              | git init                                             |
+|git clone <url>                                            | import in local from remote repo                          | git clone https://github.com/user/repo.git           |
+|git status                                                 | Current Repo Status                                       | git status                                           |
+|git add <file>                                             | FIle push on stage area                                   | git add index.html                                   |
+|git add .                                                  | All Repo file push on stage area                          | git add .                                            |
+|git commit -m "msg"                                        | Repo changes or new file commit message                   | git commit -m "Add navbar section"t                  |
+|git log                                                    | commit history                                            | git log                                              |
+|git config                                                 | git setting configure                                     | git config --global user.name "Su......"             |
 
 
