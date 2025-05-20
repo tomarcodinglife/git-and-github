@@ -1,5 +1,3 @@
-# git
-git commands
 # GitHub vs GitLab
 ---
 | Feature/Creteria                                          |     🐙 GitHub                                            |                        🦊 GitLab                     |  
