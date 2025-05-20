@@ -44,4 +44,13 @@
 |git pull                                                   | Remote changes to local repo                              | git pull                                               |
 |git fetch                                                  | Remote repo changes download                              | git fetch                                              |
 
+# Undo / Reset / Fix
+| Command                                                   |     Description                                           |                        Example                         |  
+| ----------------------------------------------------------|:---------------------------------------------------------:| ------------------------------------------------------:|
+|git restore <file>                                         | File convertlike last commit                              | git restore index.html                                 |
+|git reset                                                  | Remove from Staging                                       | git reset index.html                                   |
+|git revert <commit>                                        | Specific commit ko undo                                   | git revert a1b2c3d                                     |
+|git stash                                                  | Current changes temporarily remove and save               | git stash                                              |
+|git stash pop                                              | return to Stashed changes                                 |git stash pop                                           |
+
 
