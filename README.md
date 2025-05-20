@@ -25,4 +25,23 @@
 |git log                                                    | commit history                                            | git log                                              |
 |git config                                                 | git setting configure                                     | git config --global user.name "Su......"             |
 
+# Branching & Merging
+| Command                                                   |     Description                                           |                        Example                       |  
+| ----------------------------------------------------------|:---------------------------------------------------------:| ----------------------------------------------------:|
+|git branch                                                 | Branch Show                                               | git branch                                           |
+|git branch <name>                                          | New Branch                                                | git branch dev                                       |
+|git checkout <name>                                        | Branch Switch                                             | git checkout dev                                     |
+|git switch <name>                                          | Same as Checkout                                          | git switch dev                                       |
+|git merge <branch>                                         | Branch Merge                                              | git merge dev                                        |
+
+# Remote (GitHub / GitLab se linked)
+| Command                                                   |     Description                                           |                        Example                         |  
+| ----------------------------------------------------------|:---------------------------------------------------------:| ------------------------------------------------------:|
+|git remote -v                                              | Remote URLs Show                                          | git remote -v                                          |
+|git remote add origin <url>                                | Remote repo link                                          | git remote add origin https://github.com/user/repo.git |
+|git push -u origin main                                    | First time push with upstream                             | git push -u origin main                                |
+|git push                                                   | Local commits send to remote                              | git push                                               |
+|git pull                                                   | Remote changes to local repo                              | git pull                                               |
+|git fetch                                                  | Remote repo changes download                              | git fetch                                              |
+
 
