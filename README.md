@@ -53,4 +53,13 @@
 |git stash                                                  | Current changes temporarily remove and save               | git stash                                              |
 |git stash pop                                              | return to Stashed changes                                 |git stash pop                                           |
 
+# Extra Helpful Commands
+| Command                                                   |     Description                                           |                        Example                         |  
+| ----------------------------------------------------------|:---------------------------------------------------------:| ------------------------------------------------------:|
+|git show                                                   | Last commit detail                                        | git show                                               |
+|git diff                                                   | Working directory and staging area's difference show      | git diff                                               |
+|git tag                                                    | Version/tag assign (like v1.0.0)                          | git tag                                                |
+|git cherry-pick <commit>                                   | apply specific commit                                     | git cherry-pick <commit>                               |
+|git rm <file>                                              | file delete from Git                                      | git rm <file>                                          |
+
 
